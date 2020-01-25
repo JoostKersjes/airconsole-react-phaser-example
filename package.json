@@ -1,0 +1,23 @@
+{
+  "name": "airconsole-react-phaser-example",
+  "version": "1.0.0",
+  "description": "An AirConsole setup with Phaser 3, Parcel, React Hooks and ESLint",
+  "main": "src/screen.html",
+  "repository": "https://github.com/JoostKersjes/airconsole-react-phaser-example.git",
+  "author": "Joost Kersjes <joostkersjes@live.nl>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/controller.html src/screen.html",
+    "build": "parcel build src/controller.html src/screen.html"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
