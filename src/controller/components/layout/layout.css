@@ -1,0 +1,19 @@
+.layout {
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    'a b'
+    'c c';
+}
+
+.left {
+  grid-area: a;
+}
+
+.right {
+  grid-area: b;
+}
+
+.info {
+  grid-area: c;
+}

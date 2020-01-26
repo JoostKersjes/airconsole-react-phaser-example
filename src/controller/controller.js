@@ -1,11 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import { Layout } from './components/layout/layout';
 
 const Controller = () => {
-  return <div>Controller</div>;
+  return <Layout />;
 };
 
 // Get the root element
-const root = document.querySelector("#controller-root");
+const rootElement = document.getElementById('controller-root');
 // Render React tree into root element
-ReactDOM.render(React.createElement(Controller), root);
+ReactDOM.render(<Controller />, rootElement);
